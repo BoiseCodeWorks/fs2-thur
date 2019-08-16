@@ -1,0 +1,26 @@
+.point-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.player{
+  height: 100vh;
+  background: red;
+  color: white;
+  font-size: xx-large;
+  width: 100%;
+  margin: 1em;
+  user-select: none;
+  transition: all .25s linear;
+  opacity: .8;
+  /* font-size: 300px; */
+}
+
+.player:hover{
+  background: black;
+  opacity: 1;
+}
+
+.hidden{
+  display: none;
+}
